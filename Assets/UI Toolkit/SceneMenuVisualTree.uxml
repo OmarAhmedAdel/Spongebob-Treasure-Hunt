@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/SceneMenuStyle.uss?fileID=7433441132597879392&amp;guid=ef08ce91f476fce4fb7f3e706f87f313&amp;type=3#SceneMenuStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Mission: Find Treasure" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="header" style="justify-content: flex-start; align-self: center;" />
+        <ui:Label tabindex="-1" text="Choose Your Path Wisely!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SecondHeader" class="header" style="margin-top: 50px;" />
+        <ui:Button text="Road 1" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" name="RoadOneButton" class="button" style="margin-top: 50px; align-self: center; margin-right: 343px; margin-bottom: -111px;" />
+        <ui:Button text="Road 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RoadTwoButton" class="button" style="margin-top: 50px; margin-left: 400px;" />
+    </ui:VisualElement>
+</ui:UXML>
